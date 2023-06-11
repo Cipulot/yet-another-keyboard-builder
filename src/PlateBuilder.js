@@ -10,12 +10,17 @@ import { SwitchOmronB3G } from './cutouts/SwitchOmronB3G'
 import { SwitchHiTek725 } from './cutouts/SwitchHiTek725'
 import { SwitchIRocks } from './cutouts/SwitchIRocks'
 import { SwitchFutabaMA } from './cutouts/SwitchFutabaMA'
+import { SwitchTopreOEM } from './cutouts/SwitchTopreOEM'
+import { SwitchTopreRGB } from './cutouts/SwitchTopreRGB'
+import { SwitchTABHacking } from './cutouts/SwitchTABHacking'
 
 import { StabilizerMXBasic } from './cutouts/StabilizerMXBasic'
 import { StabilizerMXSmall } from './cutouts/StabilizerMXSmall'
 import { StabilizerMXSpec } from './cutouts/StabilizerMXSpec'
 import { StabilizerAlpsAEK } from './cutouts/StabilizerAlpsAEK'
 import { StabilizerAlpsAT101 } from './cutouts/StabilizerAlpsAT101'
+import { StabilizerTopreOEM } from './cutouts/StabilizerTopreOEM'
+import { StabilizerTopreRGB } from './cutouts/StabilizerTopreRGB'
 import { NullGenerator } from './cutouts/NullGenerator'
 
 import { AcousticMXBasic } from './cutouts/AcousticMXBasic'
@@ -62,6 +67,15 @@ export function buildPlate(keysArray, generatorOptions) {
             break;
         case "futaba-ma":
             switchGenerator = new SwitchFutabaMA();
+        case "topre-oem":
+            switchGenerator = new SwitchTopreOEM();
+            break;
+        case "topre-rgb":
+            switchGenerator = new SwitchTopreRGB();
+            break;
+        case "tab-hacking-v2":
+            switchGenerator = new SwitchTABHacking();
+            break;
             break;
         default:
             console.error("Unsupported switch type")
@@ -85,6 +99,11 @@ export function buildPlate(keysArray, generatorOptions) {
         case "alps-at101":
             stabilizerGenerator = new StabilizerAlpsAT101();
             break;
+        case "topre-oem":
+            stabilizerGenerator = new StabilizerTopreOEM();
+            break;
+        case "topre-rgb":
+            stabilizerGenerator = new StabilizerTopreRGB();
         case "none":
             stabilizerGenerator = new NullGenerator();
             break;

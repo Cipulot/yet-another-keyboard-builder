@@ -55,7 +55,7 @@ export function SwitchCutoutPane() {
             <h4>Choc CPG1350</h4>
             <p>14 x 14mm</p>
             <p>For Kailh Choc V1 CPG1350 switches with a travel distance of 3.0mm.<br />
-            Identical cutout to basic Cherry MX switches.</p>
+                Identical cutout to basic Cherry MX switches.</p>
             <br />
             <h4>Mini Choc CPG1232</h4>
             <p>13.7 x 12.7 mm</p>
@@ -81,7 +81,19 @@ export function SwitchCutoutPane() {
             <h4>Futaba MA</h4>
             <p>14 x 15 mm</p>
             <p>For Futaba MA mechanical switches.</p>
-            
+            <br />
+            <h4>Topre OEM</h4>
+            <p>14.6 x 14 mm</p>
+            <p>The standard switch cutout for Topre OEM.</p>
+            <br />
+            <h4>Topre RGB</h4>
+            <p>14.4272 x 14.3637(+0.5715 tab) mm</p>
+            <p>The standard switch cutout for Topre RGB.</p>
+            <br />
+            <h4>TAB Hacking V2</h4>
+            <p>14.3 x 14 mm</p>
+            <p>Cutout for the TAB Hacking V2 housings, compatible with MX plate stabilizers.</p>
+
         </div>
     )
 }
@@ -116,6 +128,12 @@ export function OtherCutoutPane() {
             <br />
             <h4>Cherry MX Extreme</h4>
             <p>A larger amount of acoustic cuts.</p>
+            <br />
+            <h4>Topre OEM</h4>
+            <p>A typical cutout suited for OEM Topre stabilizer (not RGB).</p>
+            <br />
+            <h4>Topre RGB</h4>
+            <p>A typical cutout suited for RGB Topre stabilizer.</p>
         </div>
     )
 }
@@ -144,9 +162,10 @@ export function AboutPane() {
             <h2>ai03 Plate Generator</h2>
             <p>Originally written in Python as a CLI and server-side tool; now rewritten as a client-side webapp.<br />
                 The goal is to provide a production-tested, exceptionally accurate, versatile plate generator for all who make keyboards.</p>
-                <br/>
+            <br />
             <h4>Credits</h4>
             <p>The following people have contributed help and/or information for making this project possible. <br />
+                cipulot<br />
                 huygn<br />
                 jrhe<br />
                 fcoury<br />
@@ -156,7 +175,7 @@ export function AboutPane() {
                 Senter<br />
                 Pwner<br />
                 Kevinplus</p>
-                <br/>
+            <br />
             <h4>Contributing</h4>
             <p>Please visit the <a href="https://github.com/ai03-2725/yet-another-keyboard-builder">source repository</a> for more info.</p>
         </div>
