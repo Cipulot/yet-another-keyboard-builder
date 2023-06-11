@@ -150,6 +150,9 @@ function App() {
                   <option value="hitek-725">Hi-Tek 725</option>
                   <option value="i-rocks">i-Rocks</option>
                   <option value="futaba-ma">Futaba MA</option>
+                  <option value="topre-oem">Topre OEM</option>
+                  <option value="topre-rgb">Topre RGB</option>
+                  <option value="tab-hacking-v2">TAB Hacking V2</option>
 
                 </Form.Select>
                 <Form.Label>Stabilizer Cutout Type</Form.Label>
@@ -163,6 +166,8 @@ function App() {
                   <option value="mx-spec">Cherry MX Spec</option>
                   <option value="alps-aek">Alps AEK</option>
                   <option value="alps-at101">Alps AT101</option>
+                  <option value="topre-oem">Topre OEM</option>
+                  <option value="topre-rgb">Topre RGB</option>
                   <option value="none">None</option>
 
                 </Form.Select>
