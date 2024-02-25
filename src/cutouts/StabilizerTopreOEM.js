@@ -33,9 +33,9 @@ export class StabilizerTopreOEM extends CutoutGenerator {
             return null
         }
 
-        const width = new Decimal("13.462")
-        const upperBound = new Decimal("6.8705")
-        const lowerBound = new Decimal("-6.8705")
+        const width = new Decimal("13.6")
+        const upperBound = new Decimal("6.95")
+        const lowerBound = new Decimal("-6.95")
 
         const plusHalfWidth = width.dividedBy(new Decimal("2"))
         const minsHalfWidth = width.dividedBy(new Decimal("-2"))

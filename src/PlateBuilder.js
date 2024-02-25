@@ -67,6 +67,7 @@ export function buildPlate(keysArray, generatorOptions) {
             break;
         case "futaba-ma":
             switchGenerator = new SwitchFutabaMA();
+            break
         case "topre-oem":
             switchGenerator = new SwitchTopreOEM();
             break;
@@ -75,7 +76,6 @@ export function buildPlate(keysArray, generatorOptions) {
             break;
         case "tab-hacking-v2":
             switchGenerator = new SwitchTABHacking();
-            break;
             break;
         default:
             console.error("Unsupported switch type")
@@ -104,6 +104,7 @@ export function buildPlate(keysArray, generatorOptions) {
             break;
         case "topre-rgb":
             stabilizerGenerator = new StabilizerTopreRGB();
+            break;
         case "none":
             stabilizerGenerator = new NullGenerator();
             break;

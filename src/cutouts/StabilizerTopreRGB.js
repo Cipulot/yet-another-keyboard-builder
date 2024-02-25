@@ -38,7 +38,7 @@ export class StabilizerTopreRGB extends CutoutGenerator {
             stab_spacing_left = stab_spacing_right = new Decimal("21.1772")
         }
         else if (keySize.gte(2)) {
-            stab_spacing_left = stab_spacing_right = new Decimal("14.0589")
+            stab_spacing_left = stab_spacing_right = new Decimal("14.138")
         }
         else {
             return null
