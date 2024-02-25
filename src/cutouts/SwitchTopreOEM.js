@@ -40,8 +40,8 @@ export class SwitchTopreOEM extends CutoutGenerator {
             E = [minsHalfWidth.plus(3).toNumber(), minsHalfHeight.toNumber()]
             F = [plusHalfWidth.minus(3).toNumber(), minsHalfHeight.toNumber()]
 
-            K = [plusHalfWidth.plus(0.1512).toNumber(), minsHalfHeight.minus(0.1469).toNumber()]
-            L = [minsHalfWidth.minus(0.1512).toNumber(), minsHalfHeight.minus(0.1469).toNumber()]
+            K = [plusHalfWidth.plus(0.4).toNumber(), minsHalfHeight.minus(0.2).toNumber()]
+            L = [minsHalfWidth.minus(0.4).toNumber(), minsHalfHeight.minus(0.2).toNumber()]
 
             model = {
                 paths: {
