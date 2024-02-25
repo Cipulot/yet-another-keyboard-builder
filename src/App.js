@@ -92,7 +92,7 @@ function App() {
     <Container className="App justify-content-center" style={{ textAlign: "center" }}>
 
       <div className="pt-4 pb-4">
-        <a href="https://www.cipulot.squarespace.com">
+        <a href="https://cipulot.squarespace.com">
           <Image fluid={true} src={logo} className="m-4" style={{ maxHeight: "100px" }} />
         </a>
 
