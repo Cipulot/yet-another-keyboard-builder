@@ -92,11 +92,11 @@ function App() {
     <Container className="App justify-content-center" style={{ textAlign: "center" }}>
 
       <div className="pt-4 pb-4">
-        <a href="https://ai03.com/">
+        <a href="https://www.cipulot.squarespace.com">
           <Image fluid={true} src={logo} className="m-4" style={{ maxHeight: "100px" }} />
         </a>
 
-        <h1 style={{ textTransform: "none" }}>ai03 Plate Generator</h1>
+        <h1 style={{ textTransform: "none" }}>Cipulot Plate Generator</h1>
         <h5 className="pb-2">V2.0</h5>
         <p>An advanced plate generator with filleting, kerf, exact dimensions, and a variety of cutouts.</p>
       </div>

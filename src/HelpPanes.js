@@ -159,7 +159,7 @@ export function AboutPane() {
 
     return (
         <div>
-            <h2>ai03 Plate Generator</h2>
+            <h2>Cipulot Plate Generator</h2>
             <p>Originally written in Python as a CLI and server-side tool; now rewritten as a client-side webapp.<br />
                 The goal is to provide a production-tested, exceptionally accurate, versatile plate generator for all who make keyboards.</p>
             <br />
@@ -177,7 +177,7 @@ export function AboutPane() {
                 Kevinplus</p>
             <br />
             <h4>Contributing</h4>
-            <p>Please visit the <a href="https://github.com/ai03-2725/yet-another-keyboard-builder">source repository</a> for more info.</p>
+            <p>Please visit the <a href="https://github.com/cipulot/yet-another-keyboard-builder">source repository</a> for more info.</p>
         </div>
     )
 }
